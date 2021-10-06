@@ -39,6 +39,14 @@ Click [[Wiki Link|here]] to learn about wiki links
 <p>Click <a href="./Wiki_Link.html">here</a> to learn about wiki links</p>
 .
 
+
+.
+Click [[ Wiki Link | here ]] to learn about wiki links with padding spaces
+.
+<p>Click <a href="./Wiki_Link.html">here</a> to learn about wiki links with padding spaces</p>
+.
+
+
 .
 Also, [[Wiki.Link|Wiki "Links" can use punctuation!]]
 .

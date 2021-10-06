@@ -48,12 +48,12 @@ module.exports = (options) => {
       let htmlAttrsString = ''
       const isSplit = !!match[3]
       if (isSplit) {
-        label = match[3]
-        pageName = match[1]
+        label = match[3].trim()
+        pageName = options.generatePageNameFromLabel(match[1].trim())
       }
       else {
-        label = match[1]
-        pageName = options.generatePageNameFromLabel(label)
+        label = match[1].trim()
+        pageName = options.generatePageNameFromLabel(label.trim())
       }
 
       label = options.postProcessLabel(label)
